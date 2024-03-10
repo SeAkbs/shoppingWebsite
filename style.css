@@ -1,0 +1,89 @@
+html , body{
+     margin: 0;
+     padding: 0;
+     align-items: center;
+     justify-content: center;
+}
+.heading {
+    margin-top: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background: #fff;
+    margin-bottom: 0px;
+    position: relative;
+    border-bottom: 0.2px solid #8c92a0;
+}
+.heading .searchBar{
+    background-color: ffff;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+    color: #8c92a0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    border: none;
+}
+.tbox-search{
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 15px;
+    outline: 0;
+}
+
+.logoBar{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.basketBar{
+    text-align: right;
+}
+.nav-bar{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.navBar ul li{
+    float: left;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #8c92a0;
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+    margin: 5px;
+}
+
+.favContent {
+    background-image: url(assets/hero_1.jpg);
+}
+.fav-content{
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
