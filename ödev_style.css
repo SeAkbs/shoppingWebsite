@@ -1,0 +1,207 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background: #fff;
+    margin-bottom: 0px;
+    position: relative;
+    border-bottom: 0.2px solid #8c92a0;
+}
+.heading .searchBar{
+    background-color: ffff;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+    color: #8c92a0;
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    border: none;
+}
+.tbox-search{
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 15px;
+    outline: 0;
+}
+.logoBar{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.basketBar{
+    text-align: right;
+}
+.nav-bar{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;   
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.navBar ul li{
+    float: left;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #8c92a0;
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+    margin: 5px;
+}
+.favContent {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/hero_1.jpg);
+    background-size: cover;
+}
+
+
+#section-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+
+}
+.card{
+    width: 20%;
+    box-shadow: 0 5px 9px 0 rgb(0,0,0,0.4);
+    border-radius: 6px;
+}
+.card:hover{
+    opacity: 0.7;
+}
+.container{
+    padding: 5px 20px;
+}
+.container p{
+    margin: 15px 0;
+}
+img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+p{
+    font-size: 15px;
+}
+#section-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+
+}
+#section-4{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0;
+
+}
+
+.site-block-27 ul li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+ .site-block-27 ul li {
+    padding: 0;
+    margin: 0;
+}
+.text-center {
+    text-align: center !important;
+}
+.site-block-27 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-block-27 ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.site-block-27 ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.site-block-27 ul li.active span {
+    background-color: #333;
+    color: #fff;
+}
+
+.site-block-27 ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.site-block-27 ul li a {
+    color: #007bff; 
+}
+
+
+
+
+footer{
+    width: 25%;
+    padding: 0 15px;
+}
+footer h3{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+footer h3::before{
+    content: ""; 
+    position: absolute;
+    left: 0 ; 
+    bottom: -10px;
+    background-color: #1e82e9;  
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px; 
+   }
+   footer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+footer ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
