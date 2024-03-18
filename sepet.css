@@ -239,6 +239,7 @@ html , body{
 .footer div{
   width: 40%;
   font-size: 15px;
+  color: black;
 }
 .internal-fist{
   margin: 0%;
@@ -256,7 +257,10 @@ html , body{
 .footer div a{
   text-decoration: none;
 }
+.internal-fist h3{
+  margin-left: 40px;
 
+}
 
 
 

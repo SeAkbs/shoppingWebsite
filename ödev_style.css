@@ -242,24 +242,42 @@ p{
 }
 
 .footer{
+    width: 100%;
     background-color: #fafafa;
     display: flex;
     flex-direction: row;
-    gap: 100px;
     justify-content: space-around;
-    padding-top: 60px;
- }
-.footer:first-child ul {
-    list-style-type: none;
-   
-}
-.footer .internal-fist ul li{
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
+  }
+  .footer div{
+    width: 40%;
+    font-size: 15px;
+  }
+  .internal-fist{
+    margin: 0%;
     
-   
-}
+  }
+
+  .internal-fist h3{
+     margin-left: 40px;
+
+  }
+  .footer div ul {
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  .footer .internal-fist ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+  }
+  .footer div a{
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  
 
 
 
