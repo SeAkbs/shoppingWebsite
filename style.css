@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 html , body{
-     margin: 0;
-     padding: 0;
-     align-items: center;
-     justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
 }
 body section{
     width: 100%;
 }
 .heading {
-    margin-top: 2%;
-    width: 97%;
+    margin-top: 1%;
+    width: 100%;
     display: flex; 
     flex-direction: row;
     align-items: center;
@@ -23,13 +23,16 @@ body section{
 }
 @media screen and(max-width: 600px) {
     .heading{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         height: fit-content;
     }
 }
 .heading .searchBar{
-    width: 30%;
-    display: inline-block;
+    width: 25%;
+    margin: 0 2% 0 2%;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: ffff;
@@ -42,9 +45,9 @@ body section{
     line-height: 1.7;
     border: none;
 }
+
 .tbox-search{
     border: none;
-    margin-right: -10%;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
@@ -53,13 +56,12 @@ body section{
 }
 .logo-bar{
     width: 50%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logoBar{
-
     text-align: center;
     justify-content: center;
     border: 2px solid;
@@ -71,37 +73,48 @@ body section{
 
 .basketBar{
     width: 20%;
-    align-items: end;
-    justify-content: end;
-}
-.basketBar i{
-    width: 100%;
+    margin: 0 4% 0 0;
     text-align: end;
-    align-items: end;
-    justify-content: end;
 }
+.basketBar a,i{
+    width: 20%;
+    text-align: end;
+}
+
 .nav-bar{
     width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-around;
+    justify-content: center;
     
+}
+.navBar{
+    width: 98%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .navBar ul {
-    width: 100%;
+    width: 50%;
+    margin: 1%;
+    padding: 0%;
     list-style-type: none;
+    list-style-position: outside;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
 }
 nav ul li{
-    width: 25%;
+    width: 15%;
+    text-align: start;
+    
 }
 
 .navBar ul li a{
-    width: 25%;
+    width: 15%;
     text-decoration: none;
     color: #8c92a0;
     font-size: 25px;
@@ -117,7 +130,6 @@ nav ul li{
 }
 @media screen and (max-width:600px){
     .favContent{
-        
         background-attachment:fixed;
         background-size: contain;
     }
@@ -338,18 +350,31 @@ nav ul li{
     height: 40vh;
 }
  .footer{
+    width: 100%;
     background-color: #fafafa;
     display: flex;
     flex-direction: row;
-    gap: 100px;
     justify-content: space-around;
  }
-.footer:first-child ul {
-    list-style-type: none;
+
+ .footer div{
+    margin: 0 2% 0 2%;
+    width: 45%;
+    font-size: 15px;
 }
-.footer .internal-fist ul li{
-    
+
+.footer div ul {
+    width: 100%;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.footer  div ul li{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     display: block;
+}
+.footer div a i{
+    width: 7%;
+    text-align: start;
+    margin: 0%;
 }
